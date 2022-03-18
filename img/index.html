@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contra la linea</title>
+</head>
+<body>
+    <!----------------------- CABECERA ------------------------------> 
+    <header class="conteiner-fluid bg-primary d-flex justify-content-center">
+
+       <p class="text-ligth mb-0 p-2 fs-6 ">Contactanos: 1-(305)-725-1000</p>
+    </header>
+<!----------------------- NAVMENU ------------------------------> 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span class="text-primary fs-5 fw-bold"> Contra la linea</span> 
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse"       id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Nosotras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Search">
+              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!----------------------- SLIDER------------------------------> 
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000" >
+            <img src="./slider1.jpg" class="d-block w-100" alt="Sliderimg">
+          </div>
+          <div class="carousel-item"data-bs-interval="4000" >
+            <img src="./slider2.jpg" class="d-block w-100" alt="Sliderimg">
+          </div>
+          <div class="carousel-item"data-bs-interval="3000" >
+            <img src="./slider3.jpg" class="d-block w-100" alt="Sliderimg">
+          </div>
+          <div class="carousel-item"data-bs-interval="3000" >
+            <img src="./slider4.jpg" class="d-block w-100" alt="Sliderimg">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <!-----------------------       INTRO------------------------------> 
+        <section class="w-50 mx-auto text-center pt-5" id="intro">
+            <h1 class="p-3 fs-2 border-top border-3">Una pagina unica para impulsar tu <span class="text-primary"> PASION </span></h1>
+            <p class=""><span>Contra la linea </span> es una pagina enfocada unicamente en el futbol femenino, noticas,fichajes,tablas,torneos nacionales e internacionales.</p>
+        </section>
+
+        <!-----------------------       SECCIONES------------------------------> 
+        <section class="conteiner-fluid row justify-content-around mt-5">
+            <div class="card" style="width: 18rem;">
+                <img src="./slider1.jpg" class="card-img-top" alt="slider1">
+                <div class="card-body">
+                  <p class="card-text">Seleccion femenina EEUU consigue igualar salarios luego de declararse en huelga por 62 dias</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./slider2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Seleccion Española se consagra campeona de Europalige</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./slider4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Selecciones se preparan para mundia FIFA2023</p>
+                </div>
+              </div>
+
+        </section>
+         <!-----------------------       FORMULARIO-BG------------------------------>
+         <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+             <div id="bg-contactos">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0099ff" fill-opacity="1" d="M0,288L30,282.7C60,277,120,267,180,250.7C240,235,300,213,360,208C420,203,480,213,540,229.3C600,245,660,267,720,256C780,245,840,203,900,160C960,117,1020,75,1080,69.3C1140,64,1200,96,1260,117.3C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                  </svg>
+             </div>
+             <!-----------------------       FORMULARIO-BG------------------------------>
+             <div class="conteiner" id="contenedor-formulario">
+                 <div class="text-center mb-4">
+                    
+                    <h2 class="fs-5 text-white">Contactanos</h2>
+                    <p class="text-white">Estamos aqui para recibir tus propuestas y tus dudas</p>
+                    
+                </div>
+                <section class="col-4 justify-content-center text-ligth">
+                    <form class="justify-content-center">
+                        <div class="mb-3">
+                        
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Email</div>
+                        </div>
+                        <div class="mb-3">
+                          
+                          <input type="text" class="form-control" id="Mensaje">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </section>
+                   
+                <footer>
+                    <p class="text-white"> copyrigth Todos los derechos reservados para Contra la linea</p> 
+                </footer>
+                        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
