@@ -28,17 +28,58 @@ body{
         width: 90% !important;
     }
     #bg-contacto {
-        position: relative;
-        top: -110px;
+        display: none;
+    }
+    #contenedor-formulario{
+       
+       
+        
+       
+        
     }
 }
 
-#bg-contacto {
+/*----------------------CONTACTOS BACKGROUND----------------------*/ 
+#bg-contacto{
     position: relative;
-    top: -130px;
+    top:410px
 }
+
 #seccion-contacto{
     background-color: #1b2a4e;
-    min-height: 500px;
+    min-height: 750px;
     position: relative;
+    margin-top: 1em;
 }
+
+/*----------------CONTACTO FORMULARIO---------------*/ 
+
+#contenedor-formulario{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    transform: translate(-50% -50%);
+    background:#fbfafa;
+    border-radius: 5px;
+    max-width: 150px;
+    max-width: 350px;
+}
+#titulo-formulario{
+    color: #3f3f3f;
+}
+/* <----------------------- FOOTER ------------------------------> */
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+} 
+#iconos i {
+    font-size: 26px;
+    padding: 8px 8px;
+    color: #f3f3f3;
+}
+
