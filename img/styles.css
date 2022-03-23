@@ -42,10 +42,11 @@ body{
 /*----------------------CONTACTOS BACKGROUND----------------------*/ 
 #bg-contacto{
     position: relative;
-    top:410px
+    top:410px;
 }
 
 #seccion-contacto{
+    padding-top: 2rem;
     background-color: #1b2a4e;
     min-height: 750px;
     position: relative;
@@ -55,9 +56,10 @@ body{
 /*----------------CONTACTO FORMULARIO---------------*/ 
 
 #contenedor-formulario{
-    position: absolute;
+    /* position: absolute; */
     top: 5%;
-    left: 35%;
+    /* left: 35%; */
+    margin: 5% auto;
     transform: translate(-50% -50%);
     background:#fbfafa;
     border-radius: 5px;
